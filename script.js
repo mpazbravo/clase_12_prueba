@@ -51,7 +51,7 @@
                                 { name: "INGENIERIA EN FABRICACION Y DISEÑO INDUSTRIAL EN LA UNIVERSIDAD TÉCNICA FEDERICO SANTA MARIA", x: 6, y: 5180000 },
                                 { name: "INGENIERIA EN REALIDAD VIRTUAL Y DISEÑO DE JUEGOS DIGITALES EN LA UNIVERSIDAD BERNARDO O'HIGGINS", x: 5, y: 5900000 },
                             ],
-                            backgroundColor: "rgba(241,142,45,.75)",
+                            backgroundColor: "##FF3587",
                             pointRadius: 5,
                             pointHoverRadius: 5,
                         },
@@ -207,13 +207,13 @@ new Chart(document.getElementById("apiladas"), {
         label: "Con gratuidad",
         data: [4, 2, 10, 8, 6],
         borderWidth: 1,
-        backgroundColor: "cyan"
+        backgroundColor: "#FF3587"
       },
       {
         label: "Sin gratuidad",
         data: [0, 6, 2, 8, 0],
         borderWidth: 1,
-        backgroundColor: "magenta"
+        backgroundColor: "#3ED5A9"
       }
     ]
   },
@@ -238,14 +238,14 @@ new Chart(document.getElementById("apiladas"), {
             return [
               {
                 text: "Con gratuidad",
-                fillStyle: "cyan",
-                strokeStyle: "cyan",
+                fillStyle: "#FF3587",
+                strokeStyle: "#FF3587",
                 pointStyle: "rect"
               },
               {
                 text: "Sin gratuidad",
-                fillStyle: "magenta",
-                strokeStyle: "magenta",
+                fillStyle: "#3ED5A9",
+                strokeStyle: "#3ED5A9",
                 pointStyle: "rect"
               }
             ];
