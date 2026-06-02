@@ -51,7 +51,7 @@
                                 { name: "INGENIERIA EN FABRICACION Y DISEÑO INDUSTRIAL EN LA UNIVERSIDAD TÉCNICA FEDERICO SANTA MARIA", x: 6, y: 5180000 },
                                 { name: "INGENIERIA EN REALIDAD VIRTUAL Y DISEÑO DE JUEGOS DIGITALES EN LA UNIVERSIDAD BERNARDO O'HIGGINS", x: 5, y: 5900000 },
                             ],
-                            backgroundColor: "##FF3587",
+                            backgroundColor: "#FF3587",
                             pointRadius: 5,
                             pointHoverRadius: 5,
                         },
